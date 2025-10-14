@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <!-- Charset & Responsive -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Titre unique par page -->
+  <title>DesmondTools — Outils web gratuits pour étudiants</title>
+
+  <!-- Description générale (SEO) -->
+  <meta name="description" content="DesmondTools — Calculatrice de moyenne, générateur de CV, convertisseurs et autres outils web gratuits pour lycéens et étudiants Béninois. Développé par DesmondLabs, jeune développeur passionné.">
+
+  <!-- Mots-clés SEO -->
+  <meta name="keywords" content="calculatrice moyenne, outil scolaire gratuit, outil étudiant Bénin, DesmondLabs, générateur CV, convertisseur en ligne, outils pour lycéens, projets étudiants, FCFA, moyenne scolaire">
+
+  <!-- Auteur -->
+  <meta name="author" content="DesmondLabs">
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/img/téléchargement.jpg" type="image/jpg">
+
+  <!-- Open Graph (Facebook, WhatsApp, Messenger, etc.) -->
+  <meta property="og:title" content="DesmondTools — Outils web gratuits pour étudiants">
+  <meta property="og:description" content="Calculatrice de moyenne, générateur de CV et convertisseurs en ligne. Développé par DesmondLabs, jeune développeur Béninois.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://desmondlabs.netlify.app">
+  <meta property="og:image" content="https://desmondlabs.netlify.app/assets/img/téléchargement.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="DesmondTools — Outils web gratuits pour étudiants">
+  <meta name="twitter:description" content="Calculatrice de moyenne, générateur de CV et convertisseurs. Développé par DesmondLabs.">
+  <meta name="twitter:image" content="https://desmondlabs.netlify.app/assets/img/logo.png">
+
+  <!-- CSS principal -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container">
+      <img src="assets/img/téléchargement.jpg" alt="Logo Desmond" class="logo" />
+      <h1>DesmondTools</h1>
+      <p class="tagline">Outils web simples, utiles et gratuits — créés par Desmond, 15 ans.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="intro">
+      <h2>Mes projets</h2>
+      <p>Voici mes premiers outils. Clique pour ouvrir.</p>
+      <div class="projects-grid">
+        <a class="card" href="projets/moyenne/index.html" target="_blank">
+          <h3>Calculatrice de moyenne</h3>
+          <p>Calcule ta moyenne par matière et par trimestre.</p>
+        </a>
+
+        <a class="card" href="projets/cv/index.html" target="_blank">
+          <h3>Générateur de CV</h3>
+          <p>Crée un CV professionnel en quelques clics.</p>
+          </a>
+          <a class="card" href="projets/calculatrice/index.html" target="_blank">
+              <h3>Calculatrice en ligne</h3>
+              <p>Effectue des calculs simples rapidement.</p>
+            </a>
+        </div>
+    </section>
+
+    <section class="site-header">
+      <h2>Contact</h2>
+      <p>WhatsApp :<a href="tel:+2290141449054"> +229 0141449054</a></p>
+      <address>
+        Email : <a href="mailto:kargbodesmond63@gmail.com">kargbodesmond63@gmail.com</a>
+      </address>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> DesmondTools — Développé par Desmond</small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
