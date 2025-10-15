@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://desmondlabs.netlify.app/sitemap.xml
